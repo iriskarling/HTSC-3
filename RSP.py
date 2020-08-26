@@ -91,3 +91,19 @@ if __name__ == "__main__":
                 print("you can have this " + spec.getProperty("Brand") + "for RMB" + str(i.getPrice()) + "\n")
     else:
         print("sorry, we have nothing for you")
+
+
+""" Output Samples
+You may like these instruments
+we have a Dell with the following properties
+ Size:14.0寸
+ Processor:i7
+ Class:二合一笔记本
+you can have this Dellfor RMB3500.0
+
+we have a Dell with the following properties
+ Size:14.0寸
+ Processor:i7
+ Class:二合一笔记本
+you can have this Dellfor RMB7500.0
+"""
